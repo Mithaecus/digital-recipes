@@ -1,0 +1,65 @@
+{
+    "meta": {
+        "yield": 5,
+        "cook": 10,
+        "prep": 5,
+        "total": 15
+    },
+    "ingrediants": [
+        {
+            "name": "lean ground beef",
+            "weight": 1,
+            "measurement": "lb"
+        },
+        {
+            "name": "onion powder",
+            "weight": 0.5,
+            "measurement": "tsp"
+        },        {
+            "name": "garlic salt",
+            "weight": 0.5,
+            "measurement": "tsp"
+        },        {
+            "name": "celery salt",
+            "weight": 0.5,
+            "measurement": "tsp"
+        },        {
+            "name": "ground cumin",
+            "weight": 0.5,
+            "measurement": "tsp"
+        },        {
+            "name": "tomato sauce",
+            "weight": 8,
+            "measurement": "oz"
+        }
+    ],
+    "items": [
+        {
+            "name": "skillet",
+            "size": "large"
+        }
+    ],
+    "directions": [
+        {
+            "step": 1,
+            "method": "heat",
+            "ingrediants": ["lean ground beef"],
+            "items": ["skillet"],
+            "time": 7
+        },
+        {
+            "step": 2,
+            "method": "mix",
+            "ingrediants": ["onion powder", "garlic salt", "celery salt", "ground cumin"],
+            "items": ["skillet"],
+            "time": 0
+        },
+        {
+            "step": 3,
+            "method": "mix",
+            "ingrediants": ["tomato sauce"],
+            "items": ["skillet"],
+            "time": 5
+        }
+    ]
+}
